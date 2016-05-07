@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gemspec
 
+gem 'rake', '>= 10.3'
+
 group :development do
   gem 'pry', '~> 0.10'
 end
