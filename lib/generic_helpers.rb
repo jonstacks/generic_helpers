@@ -12,6 +12,7 @@ module GenericHelpers
 
     autoload :Align
     autoload :Base
+    autoload :Context
     autoload :Layout
     autoload :Size
   end
