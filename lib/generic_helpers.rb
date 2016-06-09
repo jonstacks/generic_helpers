@@ -11,6 +11,7 @@ module GenericHelpers
     extend ActiveSupport::Autoload
 
     autoload :Base
+    autoload :Layout
     autoload :Size
   end
 end
