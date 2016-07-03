@@ -10,7 +10,7 @@ module GenericHelpers
     # corresponding css class.
     #
     # class Button
-    #   include GenericHelpers::Attributes::Base
+    #   include GenericHelpers::Attributes::Size
     #
     #   size 'btn-size-default'
     #   size :small, 'btn-small'

@@ -10,7 +10,10 @@ module GenericHelpers
   module Attributes
     extend ActiveSupport::Autoload
 
+    autoload :Align
     autoload :Base
+    autoload :Context
+    autoload :Layout
     autoload :Size
   end
 end

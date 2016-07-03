@@ -20,5 +20,5 @@ Gem::Specification.new do |s|
   s.files = Dir['CHANGELOG.md', 'LICENSE', 'README.md', 'lib/**/*']
   s.require_path = 'lib'
 
-  s.add_dependency 'activesupport'
+  s.add_dependency 'activesupport', '~> 4.2'
 end
