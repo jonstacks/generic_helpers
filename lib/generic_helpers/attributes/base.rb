@@ -9,6 +9,12 @@ module GenericHelpers
     module Base
       extend ActiveSupport::Concern
 
+      private
+
+      def options
+        @options ||= {}
+      end
+
       module ClassMethods
         def option(key)
           @options ||= []

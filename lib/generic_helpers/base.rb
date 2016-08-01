@@ -4,7 +4,8 @@ module GenericHelpers
   class Base
     include Attributes::Align
     include Attributes::Context
-    include Attributes::Size
     include Attributes::Layout
+    include Attributes::Size
+    include Attributes::Tag
   end
 end

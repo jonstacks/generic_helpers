@@ -25,7 +25,7 @@ module GenericHelpers
       end
 
       def size_class
-        self.class.sizes[@options[:size]]
+        self.class.sizes[options[:size]]
       end
 
       # Classmethods for Size module

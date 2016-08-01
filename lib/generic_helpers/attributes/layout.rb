@@ -23,7 +23,7 @@ module GenericHelpers
       end
 
       def layout_class
-        self.class.layouts[@options[:layout]]
+        self.class.layouts[options[:layout]]
       end
 
       # Classmethods for Layout module

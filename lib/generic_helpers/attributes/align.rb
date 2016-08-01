@@ -24,7 +24,7 @@ module GenericHelpers
       end
 
       def align_class
-        self.class.aligns[@options[:align]]
+        self.class.aligns[options[:align]]
       end
 
       # Classmethods for Align module

@@ -29,7 +29,7 @@ module GenericHelpers
       end
 
       def context_class
-        self.class.context_class(@options[:context])
+        self.class.context_class(options[:context])
       end
 
       module ClassMethods

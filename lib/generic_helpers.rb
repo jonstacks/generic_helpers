@@ -15,5 +15,6 @@ module GenericHelpers
     autoload :Context
     autoload :Layout
     autoload :Size
+    autoload :Tag
   end
 end
