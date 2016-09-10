@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.summary     = 'DSL for building Rails helper classes to simplify views.'
   s.description = 'DSL for building Rails helper classes to simplify views.'
 
-  s.required_ruby_version = '>= 1.9.3'
+  s.required_ruby_version = '>= 2.0.0'
 
   s.license = 'MIT'
 
