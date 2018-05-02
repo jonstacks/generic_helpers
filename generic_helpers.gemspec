@@ -1,5 +1,7 @@
-# coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
+
+# frozen_string_literal: true
+
+lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'generic_helpers/version'
 
@@ -9,7 +11,7 @@ Gem::Specification.new do |s|
   s.summary     = 'DSL for building Rails helper classes to simplify views.'
   s.description = 'DSL for building Rails helper classes to simplify views.'
 
-  s.required_ruby_version = '>= 2.0.0'
+  s.required_ruby_version = '>= 2.3.0'
 
   s.license = 'MIT'
 

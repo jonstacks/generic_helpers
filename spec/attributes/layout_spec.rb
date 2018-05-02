@@ -1,4 +1,6 @@
 
+# frozen_string_literal: true
+
 RSpec.describe GenericHelpers::Attributes::Layout do
   let(:klass) do
     Class.new do
