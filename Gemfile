@@ -10,6 +10,6 @@ end
 
 group :test do
   gem 'rspec', '~> 3.4'
-  gem 'rubocop', '~> 0.39'
+  gem 'rubocop', '~> 0.55'
   gem 'simplecov', '~> 0.11'
 end
