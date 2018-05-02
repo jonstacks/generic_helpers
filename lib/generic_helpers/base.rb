@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'generic_helpers/attributes/size'
 
 module GenericHelpers

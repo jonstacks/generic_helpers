@@ -1,4 +1,6 @@
 
+# frozen_string_literal: true
+
 RSpec.describe GenericHelpers::Attributes::Base do
   let(:klass) do
     Class.new do
@@ -6,7 +8,7 @@ RSpec.describe GenericHelpers::Attributes::Base do
     end
   end
 
-  let(:options) { [:size, :align, :layout, :context] }
+  let(:options) { %i[size align layout context] }
   let(:duplicate_options) { [:size, :align, :layout, :context, :size, nil] }
 
   describe '.option' do
